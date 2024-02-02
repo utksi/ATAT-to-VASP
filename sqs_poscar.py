@@ -63,6 +63,6 @@ def main(file):
 
 if __name__ == "__main__":
     if len(sys.argv) != 2:
-        print("Usage: sqs2poscar.py FileName")
+        print("Usage: sqs_poscar.py FileName")
         sys.exit(1)
     main(sys.argv[1])
